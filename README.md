@@ -155,15 +155,13 @@
 
 ### Development Process
 
-<!-- - 자세한 구현 과정은 [블로그](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)에서 살펴보실 수 있습니다. (업데이트 중, COMING SOON!)
-- [1탄 : spotify dev 계정 만들기](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B81-%EC%A4%80%EB%B9%84%EB%AC%BCspotify-dev-%EA%B3%84%EC%A0%95-application)
-- [2탄 : spotify api authorization 담당 서버(1) vercel로 배포](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B82-%EC%A4%80%EB%B9%84%EB%AC%BC-authorization%EC%9D%84-%EB%8B%B4%EB%8B%B9%ED%95%A0-%EC%84%9C%EB%B2%84)
-- [3탄 : spotify api authorization 담당 서버(2) 코드 작성](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B83-%EC%A4%80%EB%B9%84%EB%AC%BC-authorization%EC%9D%84-%EB%8B%B4%EB%8B%B9%ED%95%A0-%EC%84%9C%EB%B2%84-%EC%BD%94%EB%93%9C)
-- [4탄 : eslint + prettier + commitlint 설정 (+husky)](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B84-eslint-prettier-commitlint-%EC%84%A4%EC%A0%95-husky)
-- [5탄 : react router 설정](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B85-react-router-%EC%84%A4%EC%A0%95)
-- [6탄 : tanstack query 설정](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B86)
-- [7탄 : sentry 설정](https://pyotato-dev.tistory.com/entry/spotify-api-VINYLIFY-%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4-api%ED%99%9C%EC%9A%A9%ED%95%9C-%EA%B2%80%EC%83%89-%EC%9E%AC%EC%83%9D-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B87-Sentry-%EC%84%A4%EC%A0%95)
--->
+- [동작이 애매했던 나의 useFunnel 고쳐보기](https://pyotato-dev.tistory.com/entry/%EB%8F%99%EC%9E%91%EC%9D%B4-%EC%95%A0%EB%A7%A4%ED%96%88%EB%8D%98-%EB%82%98%EC%9D%98-useFunnel-%EA%B3%A0%EC%B3%90%EB%B3%B4%EA%B8%B0)
+- [세션 스토리지, 로컬 스토리지 어떤 걸 써야할까?](https://pyotato-dev.tistory.com/entry/%EC%84%B8%EC%85%98-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EB%A1%9C%EC%BB%AC-%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80-%EC%96%B4%EB%96%A4-%EA%B1%B8-%EC%8D%A8%EC%95%BC%ED%95%A0%EA%B9%8C)
+- [🍬 React import 시 Wrapper 패턴 활용해보기](https://pyotato-dev.tistory.com/entry/%F0%9F%8D%AC-React-import-%EC%8B%9C-Wrapper-%ED%8C%A8%ED%84%B4-%ED%99%9C%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0)
+- [[Nextjs] Dynamic metadata tag 생성하기 (Part.2)](https://pyotato-dev.tistory.com/entry/Nextjs-Dynamic-metadata-tag-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-Part2)
+- [[Nextjs] Dynamic metadata tag 생성하기 (SEO 지표 54 ➡️ 91)](https://pyotato-dev.tistory.com/entry/Nextjs-Dynamic-metadata-tag-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-SEO-%EC%A7%80%ED%91%9C-54-%E2%9E%A1%EF%B8%8F-91)
+- [Nextjs blurDataUrl dynamic하게 제공하기](https://pyotato-dev.tistory.com/entry/Nextjs-blurDataUrl-dynamic%ED%95%98%EA%B2%8C-%EC%A0%9C%EA%B3%B5%ED%95%98%EA%B8%B0)
+- [polling mechanism으로 react ref 확인하기](https://pyotato-dev.tistory.com/entry/polling-mechanism%EC%9C%BC%EB%A1%9C-react-ref-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0)
 
 
 
